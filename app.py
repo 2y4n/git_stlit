@@ -18,7 +18,7 @@ st.title("Rayan")
 
 st.write('BMI')
 
-hieght = ((st.slider('Height', 1 , 200))*100)
+hieght = ((st.slider('Height', 1 , 200))/100)
 wieght  = st.slider('Weight :', 1, 200)
 bmi = wieght / (hieght * hieght)
 st.write(bmi)
