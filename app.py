@@ -14,7 +14,7 @@ import joblib
 # st.write('Loan Condition is')
 
 st.title("Rayan")
-model = joblib.load("svc.pkl")
+# model = joblib.load("svc.pkl")
 
 st.write('BMI')
 
